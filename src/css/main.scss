@@ -15,13 +15,12 @@ figure.element--immersive {
 
 .img--portrait{
         width:120px !important;   
-        margin: 0 1rem 1rem 0 !important;
+        margin: 0 0 1rem 1rem !important;
         float: right !important;
         display:none !important;
 
     @media screen and (min-width: 740px) {
         width:140px !important;
-        width: 140px !important;
         margin: 0 0 1rem 1rem !important;
         float: right !important;
         display:inline-block !important;
