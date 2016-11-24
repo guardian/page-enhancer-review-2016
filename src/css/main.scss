@@ -69,57 +69,54 @@ figure.element--immersive {
 //   background: #484f53; 
 
 // }p em { }
-p sub {
-
-  position: relative;
-  display: inline; 
-  font-size: 18px !important;
-  line-height: 24px !important;
-  font-family: "Guardian Egyptian Web", Georgia, serif;
-  font-weight: normal;
-  font-weight: 500;
-  color:  #b82266 !important;  
-  vertical-align: none !important;
-  
-
-      @media screen and (min-width: 940px) {
-        margin-top: 20px !important;
-        padding-top: 10px !important;
-        font-size: 18px !important;
-        line-height: 24px !important;
-        font-family: "Guardian Egyptian Web", Georgia, serif;
-        font-weight: normal;
-    }
-
-}
 
 
 #article h2{
   position: relative;
-  display: inline; 
-  font-style: normal !important;
-  font-size: 1.25rem;
-  line-height: 1rem;
+  margin-top: -36px;
+  margin-right:  12px !important;
+  font-size: 22px !important;
+  line-height: 28px !important;
   font-family: "Guardian Egyptian Web", Georgia, serif;
+  font-weight: 900 !important;
+  color: #b82266;
+}
+
+#article sub {
+  position: relative;
+  display: inline; 
+  font-size: 60px !important;
+  margin: 0 0 36px !important;
+  line-height: 24px !important;
+  font-family: "Guardian Sans Web", Georgia, serif;
+  font-weight: normal;
+  font-weight: 100;
+  color:  #b82266 !important;  
+  vertical-align: none !important;
+}
+
+#article sup {
+  position: relative;
+  display: inline; 
+  float: left !important;
+  font-size: 18px !important;
+  line-height: 28px !important;
+  font-family: "Guardian Text Egyptian Web", Georgia, serif;
   font-weight: normal;
   font-weight: 400;
-  color: #b82266;  
   vertical-align: none !important;
-  
+}
 
-      @media screen and (min-width: 940px) {
-        margin-top: 20px !important;
-        padding-top: 10px !important;
-        font-size: 2.25rem;
-        line-height: 1.8rem;
-        font-family: "Guardian Egyptian Web", Georgia, serif;
-        font-weight: normal;
-        font-weight: 200; 
-       
-    }
+#article sup {
+    margin-left: 80px !important;
+}
+
+#article  h2{
+    margin-left: 80px !important;
 }
 
 #article{
+
   .embed_button--large, .embed_button--large a  {
           border-radius: 1000px;
           font-size: 13px;
@@ -177,6 +174,9 @@ p sub {
         }
         p {
             margin: 0px
+        }
+        p:after {
+            content : '\n';
         }
         #wrapper {
             margin: 0px
