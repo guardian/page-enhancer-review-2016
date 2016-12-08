@@ -71,7 +71,7 @@ figure.element--immersive {
 // }p em { }
 
 
-#article h2{
+.js-article__body h2{
   position: relative;
   margin-top: -36px;
   margin-right:  12px !important;
@@ -82,7 +82,7 @@ figure.element--immersive {
   color: #b82266;
 }
 
-#article sub {
+.js-article__body sub {
   position: relative;
   display: inline; 
   font-size: 60px !important;
@@ -95,7 +95,7 @@ figure.element--immersive {
   vertical-align: none !important;
 }
 
-#article sup {
+.js-article__body sup {
   position: relative;
   display: inline; 
   float: left !important;
@@ -107,15 +107,15 @@ figure.element--immersive {
   vertical-align: none !important;
 }
 
-#article sup {
+.js-article__body sup {
     margin-left: 80px !important;
 }
 
-#article  h2{
+.js-article__body  h2{
     margin-left: 80px !important;
 }
 
-#article{
+.js-article__body{
 
   .embed_button--large, .embed_button--large a  {
           border-radius: 1000px;
@@ -196,6 +196,7 @@ figure.element--immersive {
         #wrapper {
             margin: 0px
         }
+ 
 }
 
 
